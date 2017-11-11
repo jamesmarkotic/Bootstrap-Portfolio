@@ -4,7 +4,12 @@
 <head>
 	<title>Bootstrap Portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="http://getbootstrap.com/examples/sticky-footer/sticky-footer.css">
+
+  <style type="text/css">
+    body {
+      background-image: url(ep_naturalwhite.png);
+    }
+  </style>
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -19,7 +24,7 @@
       </button>
 
      <div class="container-fluid"> 
-      <h3>James Markotic</h3>
+      <h3 style="padding-left: 30px;">James Markotic</h3>
      </div> 
     </div>
 
@@ -64,14 +69,14 @@
 <div class="container col-md-8">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h1 class="panel-title">About Me</h1>
+      <h3 class="panel-title">About Me</h3>
     </div>
     <div class="panel-body">
         <div class="row">
          
           <div class="col-md-12">
             
-            <p><img class="img-responsive float-left" alt="Responsive image" src="Portfoliopic.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p><img class="img-responsive pull-left" alt="Responsive image" style="padding-right: 15px" src="Portfoliopic.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div> 
     </div>
@@ -81,27 +86,35 @@
 <div class="container col-md-4">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h2 class="panel-title">Connect with Me</h2>
+      <h3 class="panel-title">Connect with Me</h3>
     </div>
-    <div class="panel-body">
+    <div class="panel-body center-block">
       <div class="col-xs-4"> 
-            <img class="img-responsive" alt="Responsive image" src="git.png">
+          <a href="https://github.com/jamesmarkotic">
+            <img class="img-responsive" alt="Responsive image" src="git.png" >
+          </a>  
       </div>
       <div class="col-xs-4"> 
+          <a href="https://www.linkedin.com/in/james-markotic-93a6b0147/">
             <img class="img-responsive" alt="Responsive image" src="linkedin.png">
+          </a>  
       </div>
       <div class="col-xs-4"> 
-            <img class="img-responsive" alt="Responsive image" src="stackoverflow.png">
+          <a href="https://stackoverflow.com/users/8662407/james-dean">
+            <img class="img-responsive" alt="Responsive image" src="stackoverflow.png" >
+          </a> 
       </div>
     </div>
   </div>
 </div>
 
-<footer class="navbar navbar-default navbar-fixed-bottom">
+<div class="row" style="margin-top: 100px"></div>
+<div class="container">
+<footer class="navbar navbar-default navbar-fixed-bottom col-md-12" style="margin-top: 50px">
       <div class="container">
-        <span class="text-center">Derp</span>
+        <p class="text-center" style="padding-top: 10px;">Copyright © 2017 James Markotic</p>
       </div>
 </footer>
-
+</div>
 </body>
 </html>
