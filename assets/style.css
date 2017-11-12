@@ -1,0 +1,59 @@
+* {
+	border: border-box;
+}
+
+body {
+	background-image: url(../images/ep_naturalwhite.png);
+}
+
+.h3 {
+	color: #62a8a4;
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/*Header CSS*/
+.jdm {
+	background-color: #62a8a4;
+	height: 100%;
+	
+}
+
+.jdms {
+	color: white;
+}
+
+.navbar>.container .navbar-brand {
+	margin-left: 0px;
+}
+
+
+
+
+/*Body CSS*/
+.main-section {
+	
+}
+
+.about-p {
+	color: grey;
+}
+
+
+
+.sidebar {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+
+/*Footer CSS*/
+
+.foot {
+	background-color: #666;
+	color: #ccc;
+	border-top: 8px solid #62a8a4;
+	padding-top: 12px;
+}

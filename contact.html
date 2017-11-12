@@ -5,15 +5,12 @@
   <title>Bootstrap Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <style type="text/css">
-    body {
-      background-image: url(ep_naturalwhite.png);
-    }
-  </style>
+  <link rel="stylesheet" href="assets/style.css">
+
 </head>
 <body>
   <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -22,10 +19,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
-     <div class="container-fluid"> 
-      <h3 style="padding-left: 30px;">James Markotic</h3>
-     </div> 
+         <a class="navbar-brand jdm" href="index.html"><span class="jdms h3">James Markotic</span></a>
+    
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,29 +61,30 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container col-md-8">
+<div class="container">
+<div class="container col-md-8 col-xs-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title">About Me</h3>
+      <h3 class="panel-title ms-header"><span class="h3">Contact</span></h3>
     </div>
       <div class="panel-body">
         <div class="row">
          <div class="col-md-12 col-xs-12">
-            <label>Name</label>
+            <label><span class="about-p">Name</span></label>
             <div class="">
-              <input class="col-md-8 col-xs-8"/>
+              <input class="col-md-12 col-xs-12"/>
             </div>
         </div>  
 
         <div class="col-md-12 col-xs-12">
-            <label>Email</label>
+            <label><span class="about-p">Email</span></label>
             <div class="">
-              <input  class="col-md-8 col-xs-8"/>
+              <input  class="col-md-12 col-xs-12"/>
             </div>
         </div>  
 
           <div class="col-md-12 col-xs-12">
-            <label>Message</label>
+            <label><span class="about-p">Message</span></label>
             <div class="">
               <textarea class="col-md-12 col-xs-12"></textarea>
             </div> 
@@ -102,36 +98,37 @@
   </div>
 </div>
 
-<div class="container col-md-4">
+<div class="container col-md-4 col-xs-12 sidebar">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title">Contact</h3>
+      <h3 class="panel-title"><span class="h3">Connect with Me</span></h3>
     </div>
     <div class="panel-body center-block">
       <div class="col-xs-4"> 
           <a href="https://github.com/jamesmarkotic">
-            <img class="img-responsive" alt="Responsive image" src="git.png" >
+            <img class="img-responsive" alt="Responsive image" src="images/git.png" >
           </a>  
       </div>
       <div class="col-xs-4"> 
           <a href="https://www.linkedin.com/in/james-markotic-93a6b0147/">
-            <img class="img-responsive" alt="Responsive image" src="linkedin.png">
+            <img class="img-responsive" alt="Responsive image" src="images/linkedin.png">
           </a>  
       </div>
       <div class="col-xs-4"> 
           <a href="https://stackoverflow.com/users/8662407/james-dean">
-            <img class="img-responsive" alt="Responsive image" src="stackoverflow.png" >
+            <img class="img-responsive" alt="Responsive image" src="images/stackoverflow.png" >
           </a> 
       </div>
     </div>
   </div>
 </div>
+</div>
+<div class="row" style="margin-top: 100px"></div>
 
-<div class="row" style="margin-top: 40px"></div>
-
-<footer class="navbar navbar-default navbar-fixed-bottom" style="margin-top: 50px">
+<div class="container">
+<footer class="navbar navbar-default navbar-fixed-bottom col-md-12 foot" style="margin-top: 50px">
       <div class="container">
-        <p class="text-center" style="padding-top: 10px;">Copyright © 2017 James Markotic</p>
+        <p class="text-center"">Copyright © 2017 James Markotic</p>
       </div>
 </footer>
 
